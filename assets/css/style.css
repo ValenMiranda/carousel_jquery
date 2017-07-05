@@ -10,6 +10,47 @@ ul,ol{
 	list-style: none;
 }
 
-img{
-	max-width: 100%;
+.slideshow{
+	width:  100%;
+	position: relative;
+}
+
+.slider li, ul{
+	width: 100%;
+}
+
+.slider li img{
+	width: 100%;
+}
+
+.pagination{
+	display: flex;
+	justify-content: center;
+}
+
+.pagination li{
+	font-size: 20px ;
+	margin: 2px 5px;
+	color: #858585;
+	cursor: pointer;
+}
+
+.pagination li:hover{
+	color: #2A68A4;
+}
+
+.left, .right{
+	position: absolute;
+	top: 40%;
+	color: rgba(255,255,255,0.5);
+	font-size: 40px;
+	cursor: pointer;
+}
+
+.left{
+	left: 20px;
+}
+
+.right{
+	right: 20px;
 }
