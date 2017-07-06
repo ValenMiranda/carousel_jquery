@@ -6,11 +6,16 @@
 	box-sizing: border-box;
 }
 
+body{
+	background-color: #000000;
+}
+
 ul,ol{
 	list-style: none;
 }
 
 .slideshow{
+	margin-top: 50px;
 	width:  100%;
 	position: relative;
 }
@@ -53,4 +58,12 @@ ul,ol{
 
 .right{
 	right: 20px;
+}
+
+.left:hover{
+	color: rgba(255,255,255,0.8);
+}
+
+.right:hover{
+	color: rgba(255,255,255,0.8);
 }
